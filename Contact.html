@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+#container{
+    display: flex;
+    width: 100%;
+}
+.aster{
+    color: red;
+}
+#contactform{
+    width: 70%;
+    padding-left: 180px;
+    padding-top: 25px;
+}
+h5{
+    margin-bottom: 35px;
+}
+h3{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.subject{
+    height: 35px;
+    width: 320px;
+    margin-bottom: 15px;
+}
+.description{
+    min-width: 320px;
+    max-width: 320px;
+    min-height: 150px;
+}
+.input{
+    border: 1px solid black;
+}
+.file{
+    border: none;
+    margin-top: 25px;
+    height: 35px;
+}
+input[type=file]::file-selector-button{
+    height: 35px;
+    width: 150px;
+    background-color: #00a7b3;
+    border: 1px solid #00747c;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+h2{
+    margin-top: 40px;
+    font-size: 24px;
+}
+.code{
+    height: 35px;
+    width: 50px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.num{
+    height: 35px;
+    width: 260px;
+    margin-bottom: 15px;
+}
+select{
+    width: 320px;
+    height: 35px;
+    font-size: 15px;
+}
+option{
+    font-size: 15px;
+}
+input[type=submit]{
+    height: 35px;
+    width: 150px;
+    background-color: #00a7b3;
+    border: 1px solid #00747c;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+input[type=submit]:hover{
+    cursor: pointer;
+    background-color: #01919b;
+}
+
+a{
+    font-size: 15px;
+}
+ul{
+    list-style-type: "\1405 \0020";
+}
+.ans{
+    font-size: 14px;
+    list-style: none;
+    display: none;
+}
+</style>
+<!-- Head -->
+<head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>Contact Us</title>
+
+</head>
+
+<!-- Body -->
+<body>
+   <!-- Main Container-->
+    <div id="container" style="background-color:#D3D3D3" >
+
+        <!-- Contact Form -->
+        <div id="contactform">
+            <form action="Project 2.0.html" onsubmit="myFunction()">
+                <h1>Ask and Contact with me....</h1>
+                <h3><span class="aster">*</span>Required Fields</h3>
+                
+                <h3><span class="aster">*</span>Description</h3>
+                <textarea class="description input" required></textarea><br>
+      
+                <!-- Contact Information -->
+                <h2>Contact Information</h2>
+                <h3><span class="aster">*</span>First Name</h3>
+                <input type="text" class="subject input" required>
+                <h3><span class="aster">*</span>Last Name</h3>
+                <input type="text" class="subject input" required>
+                <h3><span class="aster">*</span>Email Address</h3>
+                <input type="email" class="subject input" placeholder="abc@email.com" required>
+                <h3><span class="aster">*</span>Mobile Number</h3>
+                <input type="tel" class="num input" maxlength="10" minlength="10" required>
+                <h3><span class="aster">*</span>Country</h3>
+                <select>
+                    <option>Choose One</option>
+                    <option>India</option>
+                    <option>United Arab Emirates</option>
+                    <option>United Kingdom</option>
+                    <option>United States of America</option>
+                </select>
+         <input type="submit" class="file input">
+                <br><br>
+                <a href="Project 2.0.html" title="Return to Home Page">Back</a>
+                <br><br>
+            </form>
+        </div>
+    </div>
+    <!-- Alert on Form Submission -->
+    <script>
+        function myFunction(){
+            alert("Submitted Successfully! Thanks for coming my portfolio");
+        }
+    </script>
+</body>
+</html>

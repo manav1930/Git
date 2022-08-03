@@ -1,0 +1,381 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head -->
+<head><style>
+    * {
+    box-sizing: border-box;
+}
+
+/* Body */
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+/* Top Nav Bar */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0px 0.2px 4px black;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color: #008C95;
+    color: white;
+}
+
+.topnav a.active{
+    background-color: #008C95;
+    color: white;
+}
+
+.topnav a.active:hover{
+    background-color: #11abb6;
+}
+
+.topnav .icon{
+    display: none;
+}
+
+#divside{
+    height: auto;
+    position: absolute; 
+    right: 0%; display: flex; 
+    align-items: center;
+}
+
+/*Footer*/
+#footmain{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+</style>
+    <!-- Meta Data -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>Home</title>
+
+</head>
+
+<!-- Body -->
+<body onload="hideFunction()">
+ 
+    <!-- Top Nav Bar -->
+    <header>
+        <div class="topnav">
+            <a href="Project 2.0.html" class="active">Home</a>
+       
+            <a href="Contact.html">Contact</a>
+            <a href="About.html">About Us</a>
+       
+
+            <div id="divside">
+        
+                <img src="https://i.ibb.co/Jq5KqnN/Profile.png" id="photo" height="40px" width="38px" style="margin-right: 10px;">
+            </div>
+        </div>
+    </header>
+
+    <!-- Header Logo/Search -->
+    <div id="blank"style="background-color:lavender">
+        <a href="Project 2.0.html"><img src="C:\Users\HP\Desktop\portfolio\download.jpg" alt="Logo"style="background-color:lavender"></a>
+    
+    </div>
+
+    <!-- Categories Section -->
+    <div class="whitemain">
+        <div class="whitehead">
+            <div class="line"></div>
+            <h1>&nbsp; Hi! &nbsp;</h1>
+            <div class="line"></div>
+        </div>
+
+            <!-- page divide css -->
+            <style>
+                * {
+                  box-sizing: border-box;
+                }
+                
+                /* Create two unequal columns that floats next to each other */
+                .column {
+                  float: left;
+                  padding: 10px;
+                  height: 300px; /* Should be removed. Only for demonstration */
+                }
+                
+                .left {
+                  width: 25%;
+                }
+                
+                .right {
+                  width: 75%;
+                }
+                
+                /* Clear floats after the columns */
+                .row:after {
+                  content: "";
+                  display: table;
+                  clear: both;
+                }
+                </style>
+            
+            
+        
+                <div class="header" id="head">	
+                    <div class="container"> 
+                     
+                  
+                           <!--script-nav-->
+                       <script>
+                       $("span.menu").click(function(){
+                       $(".top-menu ul").slideToggle("slow" , function(){
+                       });
+                       });
+                       </script>
+                          <div class="clearfix"></div>
+ 
+                                 <article style="position: absolute; width: 100%; opacity: 0;">
+                                           <div class="banner-wrap">
+                                            <div class="banner_center">
+                                          
+                                                  </div>
+                                          </div>
+                                   </article>
+                               </div>
+                              
+                          </div>
+                          <script src="js/jquery.wmuSlider.js"></script> 
+                            <script>
+                                 $('.example1').wmuSlider();         
+                              </script> 	           	      
+                    </div>
+                   </div>     
+                  </div>
+   
+                    </div>
+                    <div class="about-text">
+                        <div class="row">
+                            <div class="column left" style="background-color:#aaa;">
+                              <h2>My Portfolio</h2>
+                              <p></p>
+                            </div>
+                            <div class="column right" style="background-color:#bbb;">
+                              <h2>ABOUT ME</h2>
+                              <p>                <h4>My Name is Manav Mittal.I doing Btech CSE(3rd Year).<br><br>
+                                This is my Portfolio Project.This is formed using my skills(HTML,CSS,Javascript).<br><br>
+                                I do my web development course in 2020-2021 from coding ninjas with gain of 98%.<br><br>
+                                I form 3 projects in web development named "Car Auction website","catch me if you can".<br><br>
+                                I also form a car website with 2 other team members in which we form about 5 pages.</h4>  </p>
+                            </div>
+                          </div>
+            
+                        </div>
+                    <div class="clearfix"></div>
+                    </div>
+                    <img src="C:\Users\HP\Desktop\portfolio\10825-skills.png">
+                    <div class="about-sectiongrids">
+                        <div class="col-md-6 about-leftgrid">
+                            <h1 style="background-color:cornsilk">My Skills</h1>
+                            <div class="polls" style="background-color:lavender">
+                                <br>
+                                <div class="poll-desc">
+                                    <h4>1.HTML</h4>
+                                </div>
+                                <div class="percentage">
+                                    <p>75%</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="skills"style="background-color:lavender">
+                                      <div style="width:75%"> </div>
+                                  </div>
+                                  </div>
+                                  <div class="polls">
+                            <div class="poll"style="background-color:lavender">
+                                <div class="poll-desc">
+                                    <h4>2.CSS</h4>
+                                </div>
+                                <div class="percentage">
+                                    <p>75%</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="skills"style="background-color:lavender">
+                                      <div style="width:75%"> </div>
+                                  </div>
+                                  </div>
+                                  <div class="polls">
+                            <div class="poll"style="background-color:lavender">
+                                <div class="poll-desc">
+                                    <h4>3.Javascript</h4>
+                                </div>
+                                <div class="percentage"style="background-color:lavender">
+                                    <p>75%</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="skills"style="background-color:lavender">
+                                      <div style="width:75%"> </div>
+                                  </div>
+                                  </div>
+                                  <div class="polls">
+                            <div class="poll"style="background-color:lavender">
+                                <div class="poll-desc">
+                                    <h4>4.Python and C++</h4>
+                                </div>
+                                <div class="percentage">
+                                    <p>85%</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="skills">
+                                      <div style="width:75%"> </div>
+                                  </div>
+                                  </div>
+            
+            </div>
+            <div class="col-md-6 about-rightgrid">
+                <div class="polls">
+                            <div class="poll"style="background-color:lavender">
+                                <div class="poll-desc">
+                                    <h4>5.GIT</h4>
+                                </div>
+                                <div class="percentage">
+                                    <p>75%</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="skills">
+                                      <div style="width:75%"> </div>
+                                  </div>
+                                  </div>
+                                  <div class="polls">
+                            <div class="poll"style="background-color:lavender">
+                                <div class="poll-desc">
+                                    <h4>6.DBMS</h4>
+                                </div>
+                                <div class="percentage">
+                                    <p>95%</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="skills">
+                                      <div style="width:75%"> </div>
+                                  </div>
+                                  </div>
+                                  <div class="polls">
+                            <div class="poll"style="background-color:lavender">
+                                <div class="poll-desc">
+                                    <h4>7.Linux</h4>
+                                </div>
+                                <div class="percentage">
+                                    <p>75%</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="skills">
+                                      <div style="width:75%"> </div>
+                                  </div>
+                                  </div>
+                                  <div class="polls">
+                            <div class="poll">
+                         
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="skills"style="background-color:lavender">
+                                      <div style="width:75%"> </div>
+                                  </div>
+                                  </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="arrow1">
+            <a href="#work" class="scroll"><img src="images/arrow1.png" alt=""/></a>
+                            </div>
+            </div>
+            </div>
+
+
+<img src="C:\Users\HP\Desktop\portfolio\61fa1ea8-a53a-46eb-aa39-f699bb4d5e68_800x450.jpeg">
+
+            <div class="about-sectiongrids">
+                <div class="col-md-6 about-leftgrid">
+                    <h1 style="background-color:cornsilk">Project Details</h1>
+                    <div class="polls" style="background-color:lavender">
+                        
+                        <div class="poll-desc">
+                            <h4>Music Player Project</h4>
+                        </div>
+                        <div class="percentage">
+                            <p>Using HTML,CSS</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+             
+                          <div class="polls">
+                    <div class="poll"style="background-color:lavender">
+                        <div class="poll-desc">
+                            <h4>Catch me If you can</h4>
+                        </div>
+                        <div class="percentage">
+                            <p>Using HTML,CSS</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="skills"style="background-color:lavender">
+                              <div style="width:75%"> </div>
+                          </div>
+                          </div>
+                          <div class="polls">
+                    <div class="poll"style="background-color:lavender">
+                        <div class="poll-desc">
+                            <h4>Counter Continued</h4>
+                        </div>
+                        <div class="percentage"style="background-color:lavender">
+                            <p>Using HTML,CSS,Javascript</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="skills"style="background-color:lavender">
+                              <div style="width:75%"> </div>
+                          </div>
+                          </div>
+                          <div class="polls">
+                    <div class="poll"style="background-color:lavender">
+                        <div class="poll-desc">
+                            <h4>Wedding Database Management System</h4>
+                        </div>
+                        <div class="percentage">
+                            <p>Using DBMS</p>
+                    </div>
+               
+
+</body>
+</html>
